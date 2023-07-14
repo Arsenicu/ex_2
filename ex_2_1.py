@@ -236,7 +236,7 @@ async def main(method):
             
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Gets vacancies from hh.ru according to the filtering rules and saves them in the database')
-    parser.add_argument('-m', '--method', choices=['web', 'api'], default='web', help='Choise method for getting information web-site scaping or rest-api')
+    parser.add_argument('-m', '--method', choices=['web', 'api'], default='web', help='Choise method for getting information web-site scraping or rest-api')
     parser.add_argument("-d", '--database', help="Database file location, created if not exists",  type=argparse.FileType('w'), default="hh2.db")
     parser.add_argument("-f", '--filter', help="Filter for search vacncies. Default 'python middle developer'", default="python middle developer")
     parser.add_argument("-l", '--limit', help="Limit number of vacancies on page", type=int, default=20)
