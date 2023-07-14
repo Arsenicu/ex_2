@@ -6,10 +6,10 @@
 
 ### Requirements
 Python 3.10.6<br/>
-aiohttp
-beautifulsoup4
-SQLAlchemy
-tqdm
+aiohttp<br/>
+beautifulsoup4<br/>
+SQLAlchemy<br/>
+tqdm<br/>
 ```
 pip install -r requirements.txt
 ```
