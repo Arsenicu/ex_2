@@ -25,7 +25,7 @@ the database
 optional arguments:
   -h, --help            show this help message and exit
   -m {web,api}, --method {web,api}
-                        Choise method for getting information web-site scaping
+                        Choise method for getting information web-site scraping
                         or rest-api
   -d DATABASE, --database DATABASE
                         Database file location, created if not exists
